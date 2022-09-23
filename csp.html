@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Wastage Management</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family:"Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.bgimg {
+  background-position: align;
+  margin:20px;
+  background-size: cover;
+  background-image: url("https://res.cloudinary.com/dtf6tgb9p/image/upload/v1661804989/image_ore4m1.jpg");
+  min-height: 150%;
+}
+ .GFG {
+
+            background-color: white;
+
+            border: 2px solid black;
+
+            color: green;
+
+            padding: 5px 10px;
+
+            text-align: center;
+
+            display: inline-block;
+
+            font-size: 20px;
+
+            margin: 10px 30px;
+
+            cursor: pointer;
+
+        }
+
+.menu {
+  display: none;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight:500;
+}
+
+.heading {
+color:blue;
+font-size:28px;
+font-weight:bold;
+font-family:"Caveat";
+}
+
+.paragraph {
+ color:orange;
+}
+
+.para {
+color:red;
+}
+
+.des {
+color:green;
+text-decoration:underline;
+font-weight:500;
+}
+
+.desc {
+color:green;
+text-decoration:underline;
+}
+
+.caption {
+color:red;
+font-weight:bold;
+font-family:"Caveat";
+font-size:30px;
+text-align:center;
+}
+
+.det {
+color:blue;
+font-weight:510;
+font-family:"Roboto"
+font-size:20px;
+}
+
+.help {
+color:green;
+font-weight:bold;
+font-size:20px;
+text-decoration:underline;
+text-align:center;
+}
+
+.unordered-list{
+list-style-type:none;
+color:blue;
+}
+
+.thank {
+color:darkgreen;
+font-weight:bold;
+font-size:30px;
+font-family:"Caveat";
+}
+.imgs {
+height:600px;
+width:1200px;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body>
+
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+ <div class="w3-container w3-animate-zoom" id="home">
+  <div class="topnav ">
+   <a   href="#">HOME</a>
+   <a  href="#about">ABOUT</a>
+   <a  href="#our work">OUR WORK</a>
+   <a  href="#details">DETAILS</a>
+   <a  href="#donation">DONATION</a>
+  </div>  
+ </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+ 
+ 
+ 
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-white w3-large w3-animate-zoom">
+
+<!-- About Container -->
+<div class="w3-container w3-animate-zoom" id="about">
+  <div class="w3-content" style="max-width:1300px">
+
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">FOOD WASTE MANAGEMENT</span></h5>
+<p><img src="https://res.cloudinary.com/dtf6tgb9p/image/upload/v1662179730/Food-Waste_fhacwv.jpg" style="float:right;width:700px;height:400px;"/>
+
+    <p>This Web portal represents crowd resourcing on food waste management, where the leftover food is donated to the needy and to people who lack or suffer from food. The need for donations is due to the wastage of food. In this present scenario, food wastage is a large quantity in many places, like restaurants, weddings, social functions, college canteens, and many other social events. Some people donate food manually by visiting some organizations. In order to reduce the issue of food wastage, there are Web sites that have made efforts to help people donate food through online mode. This system provides a new approach where leftover food is donated to needy people or organizations, benefiting both governmental and non-governmental people. The system is an effective means of donating food to organizations, orphanages, etc., over the Internet. A new donation request will be created on the portal, and once the request is accepted, the food request from food donor to food receiver will be processed and updated on the webpage.</p>
+</p>  
+   <p class="caption">Donating "FOOD" is not just about giving the leftover food to someone else, but also having a Superior Intension of saving "ANOTHER LIFE"</p>
+  </div>
+</div>
+<!-- Our Work Container -->
+<div class="w3-container w3-animate-zoom" id="our work">
+  <div class="w3-content" style="max-width:1300px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">OUR WORK</span></h5>
+     <h5 class="heading">Pragati Engineering College (Autonomous)</h5>
+     <p class="para">1-378, ADB Road, Surampalem- 533437</p>
+     <p class="desc">About us:</p>
+     <p>We are from the CSE department. We conducted a survey recently and we found a common problem: most of the leftover food from restaurants and function halls is dumped. So we thought of donating the leftover food from restaurants and function halls to the nearest orphanages to ensure that the leftover food does not go to waste.</p>
+     <p class="des">OUR TEAM</p>
+    <p class="paragraph">1. Ch.Nandini (20A31A05D4)</p>
+    <p class="paragraph">2. G.Nandini  (20A31A05D6)</p>
+    <p class="paragraph">3. R.Lalitha  (20A31A05F5)</p>
+    <p class="paragraph">4. P.Kasi     (20A31A05I4)</p>
+    <p class="paragraph">5. N.Ravindra (21A35A0517)</p>
+        <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Survey Photos</button>
+      <div id="myDropdown" class="dropdown-content">
+      <div>
+      <div><a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661617523/project_c8ipwq.jpg" style="width:100%"</a>
+         <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661672265/project2_nwh2rl.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661687124/project21_r4epia.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661687217/project10_ywtkvw.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661687152/project3_z9kvcy.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661687164/project4_gj8oqx.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661687145/project12_bcajwc.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661687188/project7_jhz9pk.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661687209/project9_qdcb6w.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661687264/project15_i14ws3.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691091/nandu1_iqyjmj.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691101/nandu2_ce4yag.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691101/nandu3_cbasmj.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691104/nandu4_pcv18w.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691107/nandu5_xpepwc.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691132/nandu6_jhyysh.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691138/nandu7_rumqif.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691142/nandu8_nlxfgg.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691149/nandu9_d3cam4.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661691156/nandu10_uctxav.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762550/lalli2_uggjph.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762547/lalli_jggy98.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762553/lalli3_zmhlo3.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762561/lalli4_qexfp9.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762564/lalli5_nswo6j.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762569/lalli6_jxcvtk.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762573/lalli7_eoiobl.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762583/lalli9_gugals.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762589/lalli10_nnwven.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661762578/lalli8_wwmomi.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763170/kasi_giaqo8.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763671/kasi2_obor2k.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763675/kasi3_a655dr.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763677/kasi4_p637vx.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763681/kasi5_ckxslf.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763681/kasi5_ckxslf.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763686/kasi6_illtgz.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763690/kasi7_sjyfgu.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763695/kasi8_ioug2n.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763700/kasi9_jrve4g.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763711/kasi10_vbw17z.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763442/ravi_qlmgyi.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763447/ravi2_lhkvzx.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763453/ravi3_kronk8.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763530/ravi4_cavdjl.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763460/ravi5_u9f9q8.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763472/ravi6_tsjrjd.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763478/ravi7_yumn26.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763486/ravi8_f9ui3h.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763490/ravi9_s0hvct.jpg" style="width:100%"</a>
+       <a href="#"> <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1661763497/ravi10_mojaw8.jpg" style="width:100%"</a>
+  </div>
+</div>
+</div>
+</div>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+<!-- Menu Container -->
+<div class="w3-container w3-animate-zoom" id="details">
+  <div class="w3-content w3-animate-zoom" style="max-width:1300px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">DETAILS OF RESTAURANTS, FUNCTION HALLS AND ORPHANAGES IN KAKINADA</span></h5>
+ 
+ 
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Source');" id="myLink">
+       
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Orph');"><div class="w3-col s6 tablink"></div>
+      </a>
+    </div>
+   
+   <div class="w3-container w3-animate-zoom" id="details">
+  <div class="w3-content" style="max-width:1300px">
+
+    <h2>Function Halls/Restaurants in Kakinada</h2>
+    <p>Click on the below Function Halls/Restaurants button to open the Function Halls/Restaurants menu, and use the input field to search for a specific function hall or restaurant.</p>
+    <div class="dropdown">
+      <button onclick="Function()" class="dropbtn">Function halls/Restaurants</button>
+      <div id="Dropdown" class="dropdown-content">
+        <input type="text" placeholder="Search.." id="Input" onkeyup="filter()">
+          <a href="#restaurants">Hungry Birds Restaurant(G O Colony,Kakinada,9492363738)</a>
+          <a href="#restaurants">Yati Restaurant(Bhanugudi junction,Kakinada,8328662544)</a>
+          <a href="#restaurants">G.K Residency(Srinagar,Kakinada,9866579570)</a>
+          <a href="#restaurants">Foodie Train Restaurant(Near Two Town Police Station,Kakinada,9177776847)</a>
+          <a href="#restaurants">Haveli(Bahnugudi Junction,Kakinada,9912299527)</a>
+          <a href="#restaurants">Sri Yati Restaurant(Bhanugudi Junction,Kakinada,8919545802)</a>
+          <a href="#restaurants">Royal Kitchen Restaurant(Masjid centre,Kakinada,9994536818)</a>
+          <a href="#restaurants">Jaya Residency(Suryaraopeta,Kakinada,9866319733)</a>
+          <a href="#restaurants">Seasons 5(Ramaraopeta,Kakinada,9948820022)</a>
+          <a href="#restaurants">Royal Daawat Restaurant(Ramaraopeta,Kakinada,9959213724)</a>
+          <a href="#restaurants">Reeves Restaurant(Suryaraopeta,Kakinada,9160345681)</a>
+          <a href="#restaurants">The Food Factory|Best Restaurants In Kakinada
+(opp SRMT Office,Main Rd,Kakinada,8790483566)</a>
+          <a href="#restaurants">Temptations(BhanugudiJunction,Kakinada,9491145454)</a>
+          <a href="#restaurants">Barkaas Arabic Restaurant(Suryanarayanapuram,Kakinada,8842345222)</a>
+          <a href="#restaurants">Kshatriya Foods(Opposite JNTU 2nd Gate, Kakinada,8883111999)</a>
+          <a href="#restaurants">Menu Pure Veg Restaurant(BhaskarNagar Rd,Kakinada,9492454488)</a>
+          <a href="#restaurants">Srinivasa Varma's Fastfood(Srinagar,Kakinada,8842347079)</a>
+          <a href="#restaurants">Dolphin Garden Restaurant(Srinagar,Kakinada,9951315557)</a>
+          <a href="#restaurants">Vasista Multicuisine Restaurant(3Light Junction,Kakinada,8332800666)</a>
+          <a href="#restaurants">Varmas Biryani Centre( Bhanugudi Junction,Srinagar,Kakinada,9866094332)</a>
+          <a href="#restaurants">Hyggee Family Restaurant( Bank Colony,Kakinada,9440431923)</a>
+          <a href="#restaurants">Hotel Bhimas(Suryanarayanapuram,Kakinada,9347977444)</a>
+          <a href="#restaurants">The BIRYANI xpress(Bhanugudi Junction,Perrajupeta,Kakinada,8688384896)</a>
+          <a href="#functionhalls">SRMT Function Hall(Suryanarayana Puram,Kakinada,800857738)</a>
+          <a href="#functionhalls">Sri Bhavani Function Hall(Dugirala Vari St,Kakinada,8686779779)</a>
+          <a href="#functionhalls">Lakshmi Parinaya Function Hall(opp. Hope International Hospital,Kakinada,8008531333)</a>
+          <a href="#functionhalls">Sri Satya Function Hall (A/c)(Beside ChandanaBros,Kakinada,9440494160)</a>
+          <a href="#functionhalls">Nakshatra Suites and Function Hall(Sbi building,dmart,Kakinada,7732032222)</a>
+          <a href="#functionhalls">Venkanna Babu Function Hall(Vidhyuth Nagar,Kakinada,9848163279)</a>
+          <a href="#functionhalls">Utsav Function Hall(Srinagar,Kakinada,9490480098)</a>
+          <a href="#functionhalls">Parameswari Function Hall(Maruti Nagar,Kakinada,9848148632)</a>
+          <a href="#functionhalls">G-Convention Hall(Gudari Gunta,Kakinada,9848302444)</a>
+          <a href="#functionhalls">Varnika Function Hall(Gandhi Nagar,Kakinada,9578835555)</a>
+          <a href="#functionhalls">D Convention Function Hall( above Reliance SMART,Suryaraopeta,Kakinada,9912916390)</a>
+          <a href="#functionhalls">NCV Function Hall(Turangi,Kakinada,8985771115)</a>
+          <a href="#functionhalls">Vedika Convention Hall
+(Ramakrishna Nagar,Kakinada,8886116464)</a>
+          <a href="#functionhalls">Akshaya Convention Hall(Rangarao Nagar,Kakinada,9246651930)</a>
+          <a href="#functionhalls">KUSUMA SATYA CONVENTION - KS Convention Hall(2-123 Kusuma Satya City,Kakinada,9553599336)</a>
+      </div>
+    </div>
+    <script>
+function Function() {
+  document.getElementById("Dropdown").classList.toggle("show");
+}
+
+function filter() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("Input");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("Dropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+   
+    <h2>Orphanages in Kakinada</h2>
+    <p>Click on the below Orphanages button to open the Orphanage menu, and use the input field to search for a specific orphanage.</p>
+    <div class="dropdown">
+      <button onclick="myFunct()" class="dropbtn">Orphanages</button>
+      <div id="myDrop" class="dropdown-content">
+        <input type="text" placeholder="Search.." id="myIn" onkeyup="filterFunc()">
+          <a href="#orphanages">Manaspoorthy Orphanage(Shanti Nagar, 9666692113)</a>
+          <a href="#orphanages">Parivartana Street Childrens Hostel (Bhaskar Nagar, 8121534453)</a>
+          <a href="#orphanages">Children Orphanage Home (Kacheripeta, 8842372747)</a>
+          <a href="#orphanages">Living Love Trust (Bhanugudi Junction, 7893566041)</a>
+          <a href="#orphanages">Anand Seva Samithi (Madhavapatnam, 9849767714)</a>
+          <a href="#orphanages">Chundru Subbayamma Rotary (Rayudupalem, 9848070717)</a>
+          <a href="#orphanages">Jeevana Sravanthi Orphan Home (Indrapalem, 8842354939)</a>
+          <a href="#orphanages">Miriam Childrens Home (Turangi, 8842357559)</a>
+          <a href="#orphanages">Red Cross Home (Vakalapudi, 8842385940)</a>
+          <a href="#orphanages">Indian Red Cross Society(Red Cross Street,Gandhi Nagar,Branch,Kakinada,8842384386)</a>
+          <a href="#orphanages">Bethany Prayer House( Cheediga,Kakinada,9866959714)</a>
+          <a href="#orphanages">Shri Ram Chandra Mission(R.T.C.Bus Stand Road,Kakinada,9618884104)</a>
+          <a href="#orphanages">Bethany Prayer House( Cheediga,Kakinada,9866959714)</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function myFunct() {
+  document.getElementById("myDrop").classList.toggle("show");
+}
+
+function filterFunc() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myIn");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDrop");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+<!-- Contact/Area Container -->
+<div class="w3-container w3-animate-zoom" id="donation" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Donation Form</span></h5>
+    <h5 class="help">Help the Need</h5>
+    </div>
+    <img src="https://res.cloudinary.com/dxgdc1pdl/image/upload/v1662110348/i_j2dtoz.jpg" class= "imgs">
+    </p>We can see that many people are starving these days due to a lack of food. So please step forward to donate the food instead of wasting it and help the poor.</p><p>
+    <p><strong>Donate</strong> Food,Maybe Someone needs your help.</p>
+        </div>
+    <form action="https://formsubmit.co/fooddontion@gmail.com" target="_blank" method="POST">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Restuarant/Function Hall Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Address" required name="Message"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Phone Number" required name="Phone Number"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Food Quantity" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date" required name="date" value="2022-08-27T10:00"></p>
+      <p><button class="GFG"
+
+    onclick="window.location.href = 'https://riversidetownship.org/wp-content/uploads/2020/12/RIv-thank-you.png';">
+ Donate
+</button> </p>
+
+
+    <p>
+        For any queries you can text
+        us/contact us at the below numbers:
+    </p>
+     
+    <a href="sms:8978531546">
+      <ul class="unordered-list">
+        <li>8978531546</li>
+        <li>8019754528</li>
+        <li>9392437060</li>
+        <li>8985519840</li>
+        <li>7981174309</li>
+     </ul>
+    </a>
+
+         
+    </form>
+ 
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p class="thank">Thank you</p>
+</footer>
+
+
+
+</body>
+</html>
